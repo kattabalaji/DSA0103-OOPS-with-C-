@@ -8,7 +8,7 @@ int main(){
             cin>>a[i][j];
         }
     }
-    cout<<"enter 2nd matrix::";
+    cout<<"enter 2nd matrix::"<<endl;
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
             cin>>b[i][j];
@@ -36,6 +36,7 @@ int main(){
             for(k=0;k<2;k++){
             c[i][j]+=a[i][k]*b[k][j];
         }
+    }
     }
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
